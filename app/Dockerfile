@@ -10,5 +10,6 @@ RUN apk update && \
 
 WORKDIR /app
 
+# TODO: デフォルトのshellをbashにしたい
+
 EXPOSE 3000
-CMD ["npm", "run", "dev"]
