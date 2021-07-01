@@ -10,6 +10,4 @@ RUN apk update && \
 
 WORKDIR /app
 
-# TODO: デフォルトのshellをbashにしたい
-
 EXPOSE 3000
